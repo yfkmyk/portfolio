@@ -21,7 +21,7 @@ body {
     font-size: min(17px, 3.8vw);
     line-height: 1.82;
     color: var(--color-white);
-    background-color: var(--color-primary);
+    background-color: var(--color-black);
     font-feature-settings: "palt";
 }
 img {
@@ -53,13 +53,12 @@ button {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 h1 {
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 100%;
-    height: 100%;
+    font-size: 70px;
 }
